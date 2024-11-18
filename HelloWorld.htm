@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title> My First Page</title>
+    <link rel="stylesheet">
+
+    <style>
+    #hello_image{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-filter: drop-shadow(5px 5px 5px #703000);
+        filter: drop-shadow(5px 5px 5px #703000);
+    }
+    body{
+		background: linear-gradient(to bottom, lightblue 50%, #b7ffbc);
+    }
+    .container {
+        text-align: center;
+        color: gold;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #demo {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Georgia";
+        font-size: 30px;
+        color: gold;
+		text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+    .rotate {
+        animation: rotation 18s infinite linear;
+    }
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+    }
+    </style>
+
+    <script>
+		var flag=false;
+		function playAudio(url) {
+			if (!flag){
+				var audio = new Audio(url);
+				audio.loop=true;
+				audio.play();
+				flag=true;
+			}
+		}
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="hello_image">
+            <img src="wheel.png" class="rotate" width=50% height=auto >
+        </div>
+        <div id="hello_world">
+            <div class="centered">
+                <h1 onclick="playAudio('song.mp3')">Hello, World !</h1>
+            </div>
+        </div>
+    </div>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("hello_image").addEventListener("click", function() {
+			document.getElementById("demo").innerHTML = "TOO MUCH WHEEEEEEEEEEEEEELS...";
+        });
+    </script>
+</body>
+
+</html>
