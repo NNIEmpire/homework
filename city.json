@@ -1,0 +1,93 @@
+[
+{
+    "id": 9,
+    "city": "Berlin",
+    "country": "Germany",
+    "monthlyAvg": [
+      {
+        "high": 3,
+        "low": -1,
+        "dryDays": 7,
+        "snowDays": 10,
+        "rainfall": 42
+      },
+      {
+        "high": 3,
+        "low": -2,
+        "dryDays": 10,
+        "snowDays": 10,
+        "rainfall": 36
+      },
+      {
+        "high": 8,
+        "low": 1,
+        "dryDays": 11,
+        "snowDays": 5,
+        "rainfall": 30
+      },
+      {
+        "high": 13,
+        "low": 4,
+        "dryDays": 11,
+        "snowDays": 2,
+        "rainfall": 36
+      },
+      {
+        "high": 19,
+        "low": 9,
+        "dryDays": 13,
+        "snowDays": 0,
+        "rainfall": 48
+      },
+      {
+        "high": 21,
+        "low": 12,
+        "dryDays": 9,
+        "snowDays": 0,
+        "rainfall": 72
+      },
+      {
+        "high": 24,
+        "low": 14,
+        "dryDays": 14,
+        "snowDays": 0,
+        "rainfall": 36
+      },
+      {
+        "high": 24,
+        "low": 14,
+        "dryDays": 15,
+        "snowDays": 0,
+        "rainfall": 45
+      },
+      {
+        "high": 19,
+        "low": 11,
+        "dryDays": 12,
+        "snowDays": 0,
+        "rainfall": 39
+      },
+      {
+        "high": 14,
+        "low": 7,
+        "dryDays": 13,
+        "snowDays": 0,
+        "rainfall": 24
+      },
+      {
+        "high": 7,
+        "low": 3,
+        "dryDays": 9,
+        "snowDays": 4,
+        "rainfall": 51
+      },
+      {
+        "high": 4,
+        "low": 0,
+        "dryDays": 8,
+        "snowDays": 9,
+        "rainfall": 51
+      }
+    ]
+  }
+  ]
